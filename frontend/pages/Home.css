@@ -1,0 +1,107 @@
+/* General Styles */
+.home-container {
+    padding-top: 8rem; /* Adjust based on navbar height */
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .yourhr-description {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .description-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .description-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .home-container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-top: 1.5rem;
+    }
+  
+    .heading {
+      font-size: 2rem;
+    }
+  
+    .yourhr-description {
+      padding: 1rem;
+    }
+  
+    .description-title {
+      font-size: 1.8rem;
+    }
+  
+    .description-text {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home-container {
+      padding-top: 8rem; /* Adjust based on smaller navbar height */
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .heading {
+      font-size: 1.8rem;
+    }
+  
+    .yourhr-description {
+      padding: 0.8rem;
+    }
+  
+    .description-title {
+      font-size: 1.6rem;
+    }
+  
+    .description-text {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-container {
+      padding-top: 6rem; /* Adjust based on smallest screen size */
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+  
+    .heading {
+      font-size: 1.5rem;
+    }
+  
+    .yourhr-description {
+      padding: 0.5rem;
+    }
+  
+    .description-title {
+      font-size: 1.4rem;
+    }
+  
+    .description-text {
+      font-size: 0.9rem;
+    }
+  }
+  

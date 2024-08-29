@@ -1,6 +1,6 @@
 "use client"; // Marks this component as a Client Component, allowing the use of React hooks
 
-import {useState } from 'react'; // Import useState hook from React
+import React, {useState } from 'react'; // Import useState hook from React
 import '../../styles/Signup.css'; // Import custom styles for the Signup component
 
 // Signup component definition

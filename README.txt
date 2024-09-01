@@ -14,7 +14,7 @@ Viewing the Resume
 Project Structure
 The project is divided into two main folders:
 
-frontend/ - Contains the React.js frontend code.
+frontend/ - Contains the Next.js frontend code.
 backend/ - Contains the Express.js backend code.
 
 Prerequisites
